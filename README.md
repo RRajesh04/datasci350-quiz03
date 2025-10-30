@@ -45,7 +45,7 @@ In this second part, you will use AWS EC2 to perform simple Python data analysis
 1. Log into your AWS account and create an EC2 instance with:
    - Ubuntu Server 24.04 LTS
    - SSD Volume Type
-   - t2.micro instance type (free tier eligible)
+   - t2.micro or t3.micro instance type (whichever is free tier eligible)
 2. Create an SSH key pair (`.pem`) or use an existing one. Ensure the key pair has the correct permissions with `chmod`
 3. Configure security groups to allow SSH access
 4. Allocate at least 10GB disk space (but less than 30GB) for the instance
